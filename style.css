@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxContainer {
+  background-color: hsl(213, 19%, 18%);
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+
+  padding: 25px 10px 25px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 41px 1px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0px 3px 41px 1px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 3px 41px 1px rgba(0, 0, 0, 0.35);
+}
+
+.starImg {
+  width: 25px;
+  height: 25px;
+}
+
+.starImg img {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: hsl(211, 20%, 21%);
+}
+
+.content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.content p {
+    margin-top: 5px;
+    color:  hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.rating {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.rating button {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    border-radius: 50%;
+    background-color:  hsl(211, 20%, 21%);
+    color: hsl(216, 12%, 54%);
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.rating button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    transition: all 0.2s ease-in-out ;
+}
+
+.rating button:active {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    transition: all 0.2s ease-in-out ;
+}
+
+.btn {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button { 
+    font-family: "Overpass", sans-serif;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+.nextContainer {
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer {
+    background-color: hsl(213, 19%, 18%);
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  
+    padding:25px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 41px 1px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0px 3px 41px 1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 3px 41px 1px rgba(0, 0, 0, 0.35);
+  }
+
+  .thankyou {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .thankyou img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .thankyou p {
+    background-color: hsl(211, 20%, 21%) ;
+    color: hsl(25, 97%, 53%) ;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+
+  .thankyouContent {
+    margin-top: 10px;
+    display: flex;;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .thankyouContent h1 {
+     color: hsl(0, 0%, 100%);
+     font-size: 30px;
+    font-weight: 700;
+  }
+
+  .thankyouContent p{
+    color:  hsl(217, 12%, 63%);
+    font-size: 15px;
+    line-height: 20px; 
+
+    text-align: center;
+  }
+
